@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from "./Nav";
+import Hero from "./Hero";
+import Content from "./Content";
+import Middle from "./Middle";
+import MiddleBelow from "./MiddleBelow";
+import MiddleBelowBelow from "./MiddleBelowBelow";
+import MiddleBelowBelowBelow from "./MiddleBelowBelowBelow";
+import SvgPhoto from "./SvgPhoto";
+import Footer from "./Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Nav/>
+            <Hero/>
+            <Content/>
+            <Middle />
+            <MiddleBelow />
+            <MiddleBelowBelow />
+            <MiddleBelowBelowBelow />
+            <SvgPhoto />
+            <Footer />
+        </>
+    );
 }
 
 export default App;
